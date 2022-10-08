@@ -295,6 +295,7 @@ body{
 		background-color: #214E41;
 		position: absolute;
 		left: 0;
+		transition: .3s;
 	}
 	.header__burger::before{
 		top: 0;
@@ -328,12 +329,12 @@ body{
 		order: 3;
 	}
 	.active.header__burger::after{
-		transform: rotate(-45deg);
-		bottom: 9px;
+		transform: rotate(-135deg);
+		bottom: 8px;
 	}
 	.active.header__burger::before{
-		transform: rotate(45deg);
-		top: 9px;
+		transform: rotate(135deg);
+		top: 8px;
 	}
 	.active.header__burger span{
 		display: none;
